@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+src/*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.vite/
+*.tsbuildinfo
+frontend/playwright-out/
+frontend/test-results/
+frontend/playwright-report/
+frontend/vite.config.d.ts
+frontend/vite.config.js
+playwright-report/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local runtime data and databases
+runtime_data/
+*.duckdb
+*.duckdb.wal
+*.wal
+
+# Environment and secrets
+.env:Zone.Identifier
+.env
+.env.*
+!.env.example
+
+# Logs and OS/editor noise
+*.log
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+
+# Local docs excluded from GitHub upload
+docs/
+knowledge-base/sessions/
+knowledge-base/presentation/
+knowledge-base/runtime_product_gap_audit.md
+
+# Assistant/local workspace state
+.codex
+.codex/
+.claudeignore
+.claude/
