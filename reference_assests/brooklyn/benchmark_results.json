@@ -1,0 +1,104 @@
+{
+  "baseline": {
+    "name": "season_weekday_baseline",
+    "n_rows": 179,
+    "mae": 21.726256983240223,
+    "rmse": 29.37358103074653,
+    "mean_prediction": 81.89385474860335,
+    "mean_actual": 67.87150837988827
+  },
+  "brooklyn_absolute": {
+    "name": "brooklyn_absolute",
+    "n_rows": 179,
+    "mae": 14.508641511030378,
+    "rmse": 21.167835440281948,
+    "mean_prediction": 76.40885809921966,
+    "mean_actual": 67.87150837988827
+  },
+  "brooklyn_delta_on_baseline": {
+    "name": "brooklyn_delta_on_baseline",
+    "n_rows": 179,
+    "mae": 20.11092319549051,
+    "rmse": 27.842426510825067,
+    "mean_prediction": 75.9004782109515,
+    "mean_actual": 67.87150837988827
+  },
+  "baseline_by_season": [
+    {
+      "name": "Spring",
+      "n_rows": 93,
+      "mae": 32.016129032258064,
+      "rmse": 38.57394100595871,
+      "mean_prediction": 98.34946236559139,
+      "mean_actual": 79.25806451612904
+    },
+    {
+      "name": "Summer",
+      "n_rows": 10,
+      "mae": 13.6,
+      "rmse": 15.20526224699857,
+      "mean_prediction": 133.8,
+      "mean_actual": 120.2
+    },
+    {
+      "name": "Winter",
+      "n_rows": 76,
+      "mae": 10.203947368421053,
+      "rmse": 13.451301052314605,
+      "mean_prediction": 54.92763157894737,
+      "mean_actual": 47.05263157894737
+    }
+  ],
+  "brooklyn_absolute_by_season": [
+    {
+      "name": "Spring",
+      "n_rows": 93,
+      "mae": 19.24152471393652,
+      "rmse": 26.811522466829803,
+      "mean_prediction": 89.78851942252538,
+      "mean_actual": 79.25806451612904
+    },
+    {
+      "name": "Summer",
+      "n_rows": 10,
+      "mae": 12.164772289187692,
+      "rmse": 13.66148094737775,
+      "mean_prediction": 126.79815278981917,
+      "mean_actual": 120.2
+    },
+    {
+      "name": "Winter",
+      "n_rows": 76,
+      "mae": 9.025490910348218,
+      "rmse": 12.293397290097243,
+      "mean_prediction": 53.40620744167458,
+      "mean_actual": 47.05263157894737
+    }
+  ],
+  "brooklyn_delta_by_season": [
+    {
+      "name": "Spring",
+      "n_rows": 93,
+      "mae": 26.769713746365532,
+      "rmse": 34.82854389700711,
+      "mean_prediction": 88.13798178811678,
+      "mean_actual": 79.25806451612904
+    },
+    {
+      "name": "Summer",
+      "n_rows": 10,
+      "mae": 20.842063364435614,
+      "rmse": 24.766654902006188,
+      "mean_prediction": 133.59815278981915,
+      "mean_actual": 120.2
+    },
+    {
+      "name": "Winter",
+      "n_rows": 76,
+      "mae": 11.866463683374334,
+      "rmse": 16.147144585803794,
+      "mean_prediction": 53.33383902062195,
+      "mean_actual": 47.05263157894737
+    }
+  ]
+}

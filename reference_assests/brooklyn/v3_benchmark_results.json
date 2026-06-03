@@ -1,0 +1,14 @@
+{
+  "benchmark_scope": "v3_engine_uc_proxy_against_brooklyn_holdout",
+  "n_rows": 179,
+  "baseline_only": {
+    "mae": 21.787709497206706,
+    "rmse": 29.473404354533088,
+    "mean_prediction": 81.94972067039106
+  },
+  "brooklyn_reference_enabled": {
+    "mae": 20.00558659217877,
+    "rmse": 27.684273413138513,
+    "mean_prediction": 76.10055865921788
+  }
+}
